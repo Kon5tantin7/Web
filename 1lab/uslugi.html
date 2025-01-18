@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>ФСБ</title>
+  <script src="script.js"></script>
+ </head>
+ <body>
+ <img class="img" src="img/icon.png" width="95" height="203" >
+
+  <h1 class="h1"><a class="a" href="index.html">Федеральная служба безопастности</a></h1>
+  <h1></h1>
+
+  <table>
+  <tr>
+        <th><a class="a" href="uslugi.html">Услуги</a></th>
+        <th><a class="a" href="rucov.html">Руководство</a></th>
+        <th><a class="a" href="sprav.html">Справочная информация</a></th>
+  </tr>
+	</table>
+
+  <div class="text">
+  <h4>Список услуг:</h4>
+  <ul>
+    <li>Охрана</li>
+    <li>Обслуживание лифтов</li>
+    <li>Выдача лицензий</li>
+  </ul>
+  <a class="ad" href="#zatemnenie">> Расчёт услуг</a>
+  </div>
+
+     <div id="zatemnenie">
+      <div id="okno">
+        Виды услуг:<br>
+   <p><input type="checkbox" id="1"> Ремонт лифтов</p>
+   <p><input type="checkbox" id="2"> Заказ лиценции</p>
+   <p><input type="checkbox" id="3"> Охрана обьектов</p>
+   <p><input type="checkbox" id="4"> Охрана леса</p>
+   <p><input type="button" class="button" value="Расчитать!" onclick="cost()"></p>
+        <p id="result"></p>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+     
+  
+
+ </body>
+</html>
